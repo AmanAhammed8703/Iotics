@@ -1,0 +1,48 @@
+.outer-div-ticket{
+    width: 95%;
+    height: 620px;
+    margin: auto;
+    background-color: rgb(75, 135, 141);
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 4%;
+    overflow-y: scroll;
+
+}
+.outer-div-ticket::-webkit-scrollbar{
+    display: none;
+}
+.ticket-div{
+    width: 220px;
+    height: 250px;
+    background-color: rgb(255, 252, 208);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    
+}
+.ticket-description{
+    height: 50px;
+}
+.plus-div{
+    width: 220px;
+    height: 250px;
+    background-color: rgba(211, 211, 209, 0.675);
+    border-radius: 10px;
+    padding: px;
+    word-wrap: break-word;
+}
+.plus-img{
+    margin-top: 90px;
+    width: 60px;
+}
+.upper-div{
+    padding: 20px;
+    padding-right: 50px;
+    
+    width: 100%;
+}
+.logout-button{
+    float: right;
+}
