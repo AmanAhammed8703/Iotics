@@ -1,5 +1,5 @@
 
-First run the server  then run the client
+First run the server  then run the client at http://localhost:3000/
 
 SERVER
 -------------------
@@ -50,4 +50,9 @@ In the project directory, you can install dependenceies:
 In the project directory, you can run project by:
 
 ### `npm start`
+
+
+admin email:admin@gmail.com
+
+admin password :admin123
 	

@@ -89,6 +89,7 @@ function Tickets() {
   const logout = () => {
     localStorage.removeItem('adminData')
     navigate('/')
+    window.location.reload()
 
   }
 
@@ -112,7 +113,7 @@ function Tickets() {
                 <h3> ₹{ticket.price}</h3>
 
                 <Button variant="dark" onClick={() => changePublish(ticket._id)}>{ticket.publish ? "Unpublish" : "Publish"}</Button>
-                {/* <Button variant="dark">Dark</Button> */}
+                
               </div>
             </Col>
           )}
@@ -169,6 +170,7 @@ function Tickets() {
                     placeholder="From"
                     autoFocus
                     name="fromDate"
+                    max={productData.toDate}
                     onChange={handleOnChange}
                   />
                 </Col>
@@ -178,7 +180,7 @@ function Tickets() {
                     type="date"
                     placeholder="To"
                     autoFocus
-
+                    min={productData.fromDate}
                     name="toDate"
                     onChange={handleOnChange}
                   />

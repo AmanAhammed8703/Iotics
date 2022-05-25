@@ -34,7 +34,7 @@ function AdminLogIn() {
         <h6>(Admin)</h6>
         <p className='error'>{error}</p>
         <Form.Control type="email" placeholder="Email" className='input-box' onChange={(e) => setEmail(e.target.value)} />
-        <Form.Control type="email" placeholder="Password" className='input-box' onChange={(e) => setPassword(e.target.value)} />
+        <Form.Control type="password" placeholder="Password" className='input-box' onChange={(e) => setPassword(e.target.value)} />
         <Button className='login-button' onClick={submitLogIn}>Log In</Button>
 
       </div>
